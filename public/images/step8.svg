@@ -1,0 +1,18 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="300" fill="#f0f0f0"/>
+  <rect x="10" y="10" width="480" height="50" fill="#e0e0e0" rx="5"/>
+  <text x="250" y="40" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">AWS IAM Console - Trust Relationships</text>
+  <rect x="20" y="80" width="460" height="200" fill="#ffffff" stroke="#d0d0d0" stroke-width="1"/>
+  
+  <rect x="40" y="100" width="420" height="30" fill="#e9e9e9" stroke="#d0d0d0" stroke-width="1"/>
+  <text x="250" y="120" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Trust Relationships</text>
+  
+  <text x="60" y="150" font-family="Arial" font-size="12" fill="#333">This role trusts AWS account: 123456789012</text>
+  
+  <rect x="300" y="180" width="120" height="30" fill="#0073bb" rx="5"/>
+  <text x="360" y="200" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">Edit Policy</text>
+  
+  <text x="250" y="250" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">
+    Step 8: Go to Trust Relationships and click Edit Policy
+  </text>
+</svg> 

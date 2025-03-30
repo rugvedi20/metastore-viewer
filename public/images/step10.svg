@@ -1,0 +1,13 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="300" fill="#f0f0f0"/>
+  <rect x="10" y="10" width="480" height="50" fill="#e0e0e0" rx="5"/>
+  <text x="250" y="40" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">AWS IAM Console - Trust Policy Updated</text>
+  <rect x="20" y="80" width="460" height="200" fill="#ffffff" stroke="#d0d0d0" stroke-width="1"/>
+  
+  <rect x="80" y="110" width="340" height="80" fill="#f3fff3" stroke="#52c41a" stroke-width="2" rx="5"/>
+  <text x="250" y="150" font-family="Arial" font-size="16" text-anchor="middle" fill="#52c41a">✓ Trust policy has been updated</text>
+  
+  <text x="250" y="210" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">
+    Step 10: Trust policy has been updated and you're done!
+  </text>
+</svg> 

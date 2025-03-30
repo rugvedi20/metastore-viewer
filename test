@@ -1,0 +1,478 @@
+Response Data: {
+  "bucket": {
+    "bucketName": "meta-nexus",
+    "region": "ap-south-1",
+    "tables": [
+      {
+        "tableName": "delta_nation-62d30b8803bf46508a5a4102035f7f46",
+        "formatType": "Delta Lake",
+        "totalFiles": 7,
+        "details": {
+          "tableSchema": {
+            "id": "317aef9f-8ff5-4356-a337-df3d41f207db",
+            "format": {
+              "provider": "parquet",
+              "options": {}
+            },
+            "schemaString": "{\"type\":\"struct\",\"fields\":[{\"name\":\"nationkey\",\"type\":\"long\",\"nullable\":true,\"metadata\":{\"delta.columnMapping.id\":1,\"delta.columnMapping.physicalName\":\"col-ea4ad6c1-a29f-4ccd-9339-fd1c0ceea0ef\"}},{\"name\":\"name\",\"type\":\"string\",\"nullable\":true,\"metadata\":{\"delta.columnMapping.id\":2,\"delta.columnMapping.physicalName\":\"col-e2c5bc40-36bc-49ae-b9cf-87373665f877\"}},{\"name\":\"regionkey\",\"type\":\"long\",\"nullable\":true,\"metadata\":{\"delta.columnMapping.id\":3,\"delta.columnMapping.physicalName\":\"col-55c9ac63-e863-49e6-a23d-cfe0b5ed35a7\"}},{\"name\":\"comment\",\"type\":\"string\",\"nullable\":true,\"metadata\":{\"delta.columnMapping.id\":4,\"delta.columnMapping.physicalName\":\"col-526d4c64-448a-43b3-82c4-80ee02957284\"}}]}",
+            "partitionColumns": [
+              "regionkey"
+            ],
+            "configuration": {
+              "delta.checkpointInterval": "2",
+              "delta.enableChangeDataFeed": "false",
+              "delta.enableDeletionVectors": "true",
+              "delta.columnMapping.mode": "name",
+              "delta.columnMapping.maxColumnId": "4"
+            },
+            "createdTime": 1743248828503
+          },
+          "partitionDetails": [
+            "regionkey"
+          ],
+          "versioningFiles": [],
+          "versionData": [
+            {
+              "key": "delta_nation-62d30b8803bf46508a5a4102035f7f46/_delta_log/00000000000000000000.json",
+              "version": 0,
+              "versionDisplay": "v0.delta_nation-62d30b8803bf46508a5a4102035f7f46"
+            },
+            {
+              "key": "delta_nation-62d30b8803bf46508a5a4102035f7f46/_delta_log/_trino_meta/extended_stats.json",      
+              "version": null,
+              "versionDisplay": "vNaN.delta_nation-62d30b8803bf46508a5a4102035f7f46"
+            }
+          ],
+          "keyMetrics": {
+            "totalDataFileSize": 5940,
+            "dataFileCount": 5,
+            "stats": [
+              {
+                "numRecords": 5,
+                "minValues": {
+                  "col-ea4ad6c1-a29f-4ccd-9339-fd1c0ceea0ef": 0,
+                  "col-e2c5bc40-36bc-49ae-b9cf-87373665f877": "ALGERIA",
+                  "col-526d4c64-448a-43b3-82c4-80ee02957284": " haggle. carefully final deposits detect slyly agai"   
+                },
+                "maxValues": {
+                  "col-ea4ad6c1-a29f-4ccd-9339-fd1c0ceea0ef": 16,
+                  "col-e2c5bc40-36bc-49ae-b9cf-87373665f877": "MOZAMBIQUE",
+                  "col-526d4c64-448a-43b3-82c4-80ee02957284": "ven packages wake quickly. regu"
+                },
+                "nullCount": {
+                  "col-ea4ad6c1-a29f-4ccd-9339-fd1c0ceea0ef": 0,
+                  "col-e2c5bc40-36bc-49ae-b9cf-87373665f877": 0,
+                  "col-526d4c64-448a-43b3-82c4-80ee02957284": 0
+                }
+              },
+              {
+                "numRecords": 5,
+                "minValues": {
+                  "col-ea4ad6c1-a29f-4ccd-9339-fd1c0ceea0ef": 4,
+                  "col-e2c5bc40-36bc-49ae-b9cf-87373665f877": "EGYPT",
+                  "col-526d4c64-448a-43b3-82c4-80ee02957284": "efully alongside of the slyly final dependencies. "    
+                },
+                "maxValues": {
+                  "col-ea4ad6c1-a29f-4ccd-9339-fd1c0ceea0ef": 20,
+                  "col-e2c5bc40-36bc-49ae-b9cf-87373665f877": "SAUDI ARABIA",
+                  "col-526d4c64-448a-43b3-82c4-80ee02957284": "y above the carefully unusual theodolites. final dugouts are quickly across the furiously regular d"
+                },
+                "nullCount": {
+                  "col-ea4ad6c1-a29f-4ccd-9339-fd1c0ceea0ef": 0,
+                  "col-e2c5bc40-36bc-49ae-b9cf-87373665f877": 0,
+                  "col-526d4c64-448a-43b3-82c4-80ee02957284": 0
+                }
+              },
+              {
+                "numRecords": 5,
+                "minValues": {
+                  "col-ea4ad6c1-a29f-4ccd-9339-fd1c0ceea0ef": 1,
+                  "col-e2c5bc40-36bc-49ae-b9cf-87373665f877": "ARGENTINA",
+                  "col-526d4c64-448a-43b3-82c4-80ee02957284": "al foxes promise slyly according to the regular accounts. bold requests alon"
+                },
+                "maxValues": {
+                  "col-ea4ad6c1-a29f-4ccd-9339-fd1c0ceea0ef": 24,
+                  "col-e2c5bc40-36bc-49ae-b9cf-87373665f877": "UNITED STATES",
+                  "col-526d4c64-448a-43b3-82c4-80ee02957284": "y final packages. slow foxes cajole quickly. quickly silent platelets breach ironic accounts. unusual pinto be"
+                },
+                "nullCount": {
+                  "col-ea4ad6c1-a29f-4ccd-9339-fd1c0ceea0ef": 0,
+                  "col-e2c5bc40-36bc-49ae-b9cf-87373665f877": 0,
+                  "col-526d4c64-448a-43b3-82c4-80ee02957284": 0
+                }
+              },
+              {
+                "numRecords": 5,
+                "minValues": {
+                  "col-ea4ad6c1-a29f-4ccd-9339-fd1c0ceea0ef": 8,
+                  "col-e2c5bc40-36bc-49ae-b9cf-87373665f877": "CHINA",
+                  "col-526d4c64-448a-43b3-82c4-80ee02957284": " slyly express asymptotes. regular deposits haggle slyly. carefully ironic hockey players sleep blithely. carefull"
+                },
+                "maxValues": {
+                  "col-ea4ad6c1-a29f-4ccd-9339-fd1c0ceea0ef": 21,
+                  "col-e2c5bc40-36bc-49ae-b9cf-87373665f877": "VIETNAM",
+                  "col-526d4c64-448a-43b3-82c4-80ee02957284": "ss excuses cajole slyly across the packages. deposits print aroun"
+                },
+                "nullCount": {
+                  "col-ea4ad6c1-a29f-4ccd-9339-fd1c0ceea0ef": 0,
+                  "col-e2c5bc40-36bc-49ae-b9cf-87373665f877": 0,
+                  "col-526d4c64-448a-43b3-82c4-80ee02957284": 0
+                }
+              },
+              {
+                "numRecords": 5,
+                "minValues": {
+                  "col-ea4ad6c1-a29f-4ccd-9339-fd1c0ceea0ef": 6,
+                  "col-e2c5bc40-36bc-49ae-b9cf-87373665f877": "FRANCE",
+                  "col-526d4c64-448a-43b3-82c4-80ee02957284": " requests against the platelets use never according to the quickly regular pint"
+                },
+                "maxValues": {
+                  "col-ea4ad6c1-a29f-4ccd-9339-fd1c0ceea0ef": 23,
+                  "col-e2c5bc40-36bc-49ae-b9cf-87373665f877": "UNITED KINGDOM",
+                  "col-526d4c64-448a-43b3-82c4-80ee02957284": "ular asymptotes are about the furious multipliers. express dependencies nag above the ironically ironic account"
+                },
+                "nullCount": {
+                  "col-ea4ad6c1-a29f-4ccd-9339-fd1c0ceea0ef": 0,
+                  "col-e2c5bc40-36bc-49ae-b9cf-87373665f877": 0,
+                  "col-526d4c64-448a-43b3-82c4-80ee02957284": 0
+                }
+              }
+            ]
+          }
+        },
+        "versions": [
+          {
+            "display": "v0.delta_nation-62d30b8803bf46508a5a4102035f7f46",
+            "key": "delta_nation-62d30b8803bf46508a5a4102035f7f46/_delta_log/00000000000000000000.json"
+          },
+          {
+            "display": "vNaN.delta_nation-62d30b8803bf46508a5a4102035f7f46",
+            "key": "delta_nation-62d30b8803bf46508a5a4102035f7f46/_delta_log/_trino_meta/extended_stats.json"
+          }
+        ]
+      },
+      {
+        "tableName": "department.parquet",
+        "formatType": "Parquet Files",
+        "totalFiles": 4,
+        "details": {
+          "tableSchema": {
+            "schema": {
+              "id": {
+                "type": "INT64",
+                "typeLength": null,
+                "optional": true,
+                "repeated": false,
+                "encoding": "PLAIN",
+                "compression": "UNCOMPRESSED"
+              },
+              "name": {
+                "type": "UTF8",
+                "typeLength": null,
+                "optional": true,
+                "repeated": false,
+                "encoding": "PLAIN",
+                "compression": "UNCOMPRESSED"
+              },
+              "age": {
+                "type": "INT64",
+                "typeLength": null,
+                "optional": true,
+                "repeated": false,
+                "encoding": "PLAIN",
+                "compression": "UNCOMPRESSED"
+              },
+              "salary": {
+                "type": "DOUBLE",
+                "typeLength": null,
+                "optional": true,
+                "repeated": false,
+                "encoding": "PLAIN",
+                "compression": "UNCOMPRESSED"
+              }
+            },
+            "fields": {
+              "id": {
+                "name": "id",
+                "primitiveType": "INT64",
+                "path": [
+                  "id"
+                ],
+                "repetitionType": "OPTIONAL",
+                "encoding": "PLAIN",
+                "compression": "UNCOMPRESSED",
+                "rLevelMax": 0,
+                "dLevelMax": 1
+              },
+              "name": {
+                "name": "name",
+                "primitiveType": "BYTE_ARRAY",
+                "originalType": "UTF8",
+                "path": [
+                  "name"
+                ],
+                "repetitionType": "OPTIONAL",
+                "encoding": "PLAIN",
+                "compression": "UNCOMPRESSED",
+                "rLevelMax": 0,
+                "dLevelMax": 1
+              },
+              "age": {
+                "name": "age",
+                "primitiveType": "INT64",
+                "path": [
+                  "age"
+                ],
+                "repetitionType": "OPTIONAL",
+                "encoding": "PLAIN",
+                "compression": "UNCOMPRESSED",
+                "rLevelMax": 0,
+                "dLevelMax": 1
+              },
+              "salary": {
+                "name": "salary",
+                "primitiveType": "DOUBLE",
+                "path": [
+                  "salary"
+                ],
+                "repetitionType": "OPTIONAL",
+                "encoding": "PLAIN",
+                "compression": "UNCOMPRESSED",
+                "rLevelMax": 0,
+                "dLevelMax": 1
+              }
+            },
+            "fieldList": [
+              {
+                "name": "id",
+                "primitiveType": "INT64",
+                "path": [
+                  "id"
+                ],
+                "repetitionType": "OPTIONAL",
+                "encoding": "PLAIN",
+                "compression": "UNCOMPRESSED",
+                "rLevelMax": 0,
+                "dLevelMax": 1
+              },
+              {
+                "name": "name",
+                "primitiveType": "BYTE_ARRAY",
+                "originalType": "UTF8",
+                "path": [
+                  "name"
+                ],
+                "repetitionType": "OPTIONAL",
+                "encoding": "PLAIN",
+                "compression": "UNCOMPRESSED",
+                "rLevelMax": 0,
+                "dLevelMax": 1
+              },
+              {
+                "name": "age",
+                "primitiveType": "INT64",
+                "path": [
+                  "age"
+                ],
+                "repetitionType": "OPTIONAL",
+                "encoding": "PLAIN",
+                "compression": "UNCOMPRESSED",
+                "rLevelMax": 0,
+                "dLevelMax": 1
+              },
+              {
+                "name": "salary",
+                "primitiveType": "DOUBLE",
+                "path": [
+                  "salary"
+                ],
+                "repetitionType": "OPTIONAL",
+                "encoding": "PLAIN",
+                "compression": "UNCOMPRESSED",
+                "rLevelMax": 0,
+                "dLevelMax": 1
+              }
+            ]
+          },
+          "tableProperties": null,
+          "partitionDetails": null,
+          "versioningFiles": null,
+          "keyMetrics": {
+            "totalFileSize": 7679,
+            "fileCount": 4,
+            "rowCount": 33
+          }
+        }
+      },
+      {
+        "tableName": "dummy_hudi_table",
+        "formatType": "Hudi",
+        "totalFiles": 98,
+        "details": {
+          "tableSchema": null,
+          "tableProperties": {
+            "hoodie.archivelog.folder": "history",
+            "hoodie.compaction.payload.class": "org.apache.hudi.common.model.OverwriteWithLatestAvroPayload",
+            "hoodie.datasource.write.drop.partition.columns": "false",
+            "hoodie.datasource.write.hive_style_partitioning": "false",
+            "hoodie.datasource.write.partitionpath.urlencode": "false",
+            "hoodie.partition.metafile.use.base.format": "false",
+            "hoodie.populate.meta.fields": "true",
+            "hoodie.record.merge.mode": "COMMIT_TIME_ORDERING",
+            "hoodie.record.merge.strategy.id": "ce9acb64-bde0-424c-9b91-f6ebba25356d",
+            "hoodie.table.base.file.format": "PARQUET",
+            "hoodie.table.cdc.enabled": "false",
+            "hoodie.table.checksum": "707240727",
+            "hoodie.table.index.defs.path": ".hoodie/.index_defs/index.json",
+            "hoodie.table.initial.version": "8",
+            "hoodie.table.keygenerator.type": "SIMPLE",
+            "hoodie.table.metadata.partitions": "column_stats,files,partition_stats",
+            "hoodie.table.multiple.base.file.formats.enable": "false",
+            "hoodie.table.name": "dummy_hudi_data",
+            "hoodie.table.partition.fields": "city",
+            "hoodie.table.timeline.timezone": "LOCAL",
+            "hoodie.table.type": "COPY_ON_WRITE",
+            "hoodie.table.version": "8",
+            "hoodie.timeline.history.path": "history",
+            "hoodie.timeline.layout.version": "2",
+            "hoodie.timeline.path": "timeline"
+          },
+          "partitionDetails": null,
+          "versioningFiles": [],
+          "keyMetrics": {
+            "totalFileSize": 2615879,
+            "fileCount": 6
+          }
+        }
+      },
+      {
+        "tableName": "iceberg_customer-0c1ce7cffd0e4401a637ca86db296e38",
+        "formatType": "Iceberg",
+        "totalFiles": 6,
+        "details": {
+          "tableSchema": {
+            "type": "struct",
+            "schema-id": 0,
+            "fields": [
+              {
+                "id": 1,
+                "name": "custkey",
+                "required": false,
+                "type": "long"
+              },
+              {
+                "id": 2,
+                "name": "name",
+                "required": false,
+                "type": "string"
+              },
+              {
+                "id": 3,
+                "name": "address",
+                "required": false,
+                "type": "string"
+              },
+              {
+                "id": 4,
+                "name": "nationkey",
+                "required": false,
+                "type": "long"
+              },
+              {
+                "id": 5,
+                "name": "phone",
+                "required": false,
+                "type": "string"
+              },
+              {
+                "id": 6,
+                "name": "acctbal",
+                "required": false,
+                "type": "double"
+              },
+              {
+                "id": 7,
+                "name": "mktsegment",
+                "required": false,
+                "type": "string"
+              },
+              {
+                "id": 8,
+                "name": "comment",
+                "required": false,
+                "type": "string"
+              }
+            ]
+          },
+          "tableProperties": {
+            "write.format.default": "PARQUET",
+            "write.parquet.compression-codec": "zstd"
+          },
+          "partitionDetails": {
+            "spec-id": 0,
+            "fields": []
+          },
+          "versioningFiles": [
+            {
+              "sequence-number": 1,
+              "snapshot-id": 388918430335099140,
+              "timestamp-ms": 1743247882656,
+              "summary": {
+                "operation": "append",
+                "trino_query_id": "20250329_113121_00019_tdg9d",
+                "trino_user": "deepakdixit",
+                "added-data-files": "1",
+                "added-records": "1500",
+                "added-files-size": "86416",
+                "changed-partition-count": "1",
+                "total-records": "1500",
+                "total-files-size": "86416",
+                "total-data-files": "1",
+                "total-delete-files": "0",
+                "total-position-deletes": "0",
+                "total-equality-deletes": "0",
+                "engine-version": "468",
+                "engine-name": "trino",
+                "iceberg-version": "Apache Iceberg 1.7.1 (commit 4a432839233f2343a9eae8255532f911f06358ef)"
+              },
+              "manifest-list": "s3://e6data-hackathon/iceberg_customer-0c1ce7cffd0e4401a637ca86db296e38/metadata/snap-388918430335099130-1-85254051-cc6d-499a-bceb-179cdd3cd762.avro",
+              "schema-id": 0
+            }
+          ],
+          "versionData": [
+            {
+              "versionDisplay": "v0.iceberg_customer-0c1ce7cffd0e4401a637ca86db296e38",
+              "key": "iceberg_customer-0c1ce7cffd0e4401a637ca86db296e38/metadata/00000-a888461e-c231-4367-b5df-f7cddf98ba54.metadata.json",
+              "version": 0
+            },
+            {
+              "versionDisplay": "v0.iceberg_customer-0c1ce7cffd0e4401a637ca86db296e38",
+              "key": "iceberg_customer-0c1ce7cffd0e4401a637ca86db296e38/metadata/00001-ebb3e245-5b2f-44ac-9bd9-3fc04537be7f.metadata.json",
+              "version": 0
+            }
+          ],
+          "keyMetrics": {
+            "totalDataFileSize": 86416,
+            "dataFileCount": 1,
+            "stats": [
+              {
+                "key": "iceberg_customer-0c1ce7cffd0e4401a637ca86db296e38/data/20250329_113121_00019_tdg9d-9d3255db-84e8-4685-bde0-a4a97c44a039.parquet",
+                "stats": null
+              }
+            ]
+          }
+        },
+        "versions": [
+          {
+            "display": "v0.iceberg_customer-0c1ce7cffd0e4401a637ca86db296e38",
+            "key": "iceberg_customer-0c1ce7cffd0e4401a637ca86db296e38/metadata/00000-a888461e-c231-4367-b5df-f7cddf98ba54.metadata.json"
+          },
+          {
+            "display": "v0.iceberg_customer-0c1ce7cffd0e4401a637ca86db296e38",
+            "key": "iceberg_customer-0c1ce7cffd0e4401a637ca86db296e38/metadata/00001-ebb3e245-5b2f-44ac-9bd9-3fc04537be7f.metadata.json"
+          }
+        ]
+      }
+    ]
+  }
+}

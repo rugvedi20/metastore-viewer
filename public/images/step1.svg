@@ -1,0 +1,11 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="300" fill="#f0f0f0"/>
+  <rect x="10" y="10" width="480" height="50" fill="#e0e0e0" rx="5"/>
+  <text x="250" y="40" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">AWS IAM Console - Roles</text>
+  <rect x="20" y="80" width="460" height="200" fill="#ffffff" stroke="#d0d0d0" stroke-width="1"/>
+  <text x="250" y="160" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">
+    Step 1: Navigate to AWS IAM Console and select Roles
+  </text>
+  <rect x="380" y="240" width="90" height="30" fill="#0073bb" rx="5"/>
+  <text x="425" y="260" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">Create Role</text>
+</svg> 
